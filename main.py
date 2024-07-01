@@ -24,7 +24,7 @@ def extract_text_from_pdf(file_path):
     return text
 
 def generate_questions(text):
-    genai.configure(api_key="AIzaSyBGr8QJ-5E_IY2DlhKL668swEVq_PCGs80")
+    genai.configure(api_key="AIzaSyBGr8QJ-5E_IY2Dlh789efaesfwEVq_PCGs80")
 
     # Set up the model
     generation_config = {
